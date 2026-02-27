@@ -1,5 +1,0 @@
-remote_theme: pages-themes/slate@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: Stephen Dunn Portfolio
-description: Technical professional experienced in supporting enterprise environments across security, systems, and operational technology. Recognized for taking ownership of complex technical issues, collaborating and driving remediation efforts, and helping maintain secure and reliable infrastructure.

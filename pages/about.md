@@ -27,4 +27,4 @@ Hands on enterprise environment experience:
 
 If you would like to collaborate then please consider connecting with me on Linked in [Here](https://www.linkedin.com/in/stephenwdunn2/)
 
-![Portrait]({{ '/assets/images/profile/portrait.png' | https://github.com/Dunnszn/dunnszn.com }})
+![Portrait]({{ '/assets/images/profile/portrait.png' }})

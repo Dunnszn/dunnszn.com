@@ -6,34 +6,59 @@ title: Home
 <section class="hero">
   <div class="hero__content">
     <p class="hero__eyebrow">Cybersecurity • Systems • Endpoint Operations</p>
-    <h1 class="hero__title">Building secure, reliable enterprise environments.</h1>
+    <h1 class="hero__title">Stephen Dunn</h1>
     <p class="hero__text">
-      I document real work across incident support, endpoint administration,
-      remediation, and technical troubleshooting.
+      Technical professional focused on endpoint security, incident support,
+      remediation, and enterprise systems reliability.
     </p>
+    <div class="hero__actions">
+      <a class="button button--primary" href="{{ '/pages/about' | relative_url }}">About Me</a>
+      <a class="button button--secondary" href="{{ '/pages/projects' | relative_url }}">View Projects</a>
+    </div>
   </div>
 </section>
 
-<section class="post-grid">
-  {% for post in paginator.posts %}
-    {% include featured-post.html %}
-  {% endfor %}
+<section class="home-sections">
+  <a class="section-card" href="{{ '/about/' | relative_url }}">
+    <img class="section-card__image" src="{{ '/assets/images/home/about.jpg' | relative_url }}" alt="About Stephen Dunn">
+    <div class="section-card__content">
+      <h2>About</h2>
+      <p>Background, experience, and technical focus.</p>
+    </div>
+  </a>
+
+  <a class="section-card" href="{{ '/projects/' | relative_url }}">
+    <img class="section-card__image" src="{{ '/assets/images/home/projects.jpg' | relative_url }}" alt="Projects">
+    <div class="section-card__content">
+      <h2>Projects</h2>
+      <p>Case studies, technical writeups, and practical work.</p>
+    </div>
+  </a>
+
+  <a class="section-card" href="{{ '/resume/' | relative_url }}">
+    <img class="section-card__image" src="{{ '/assets/images/home/resume.jpg' | relative_url }}" alt="Resume">
+    <div class="section-card__content">
+      <h2>Resume</h2>
+      <p>Experience, certifications, and core skills.</p>
+    </div>
+  </a>
+
+  <a class="section-card" href="{{ '/contact/' | relative_url }}">
+    <img class="section-card__image" src="{{ '/assets/images/home/contact.jpg' | relative_url }}" alt="Contact">
+    <div class="section-card__content">
+      <h2>Contact</h2>
+      <p>Ways to connect professionally.</p>
+    </div>
+  </a>
 </section>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">
-      {{ site.data.settings.pagination.previous_page }}
-    </a>
-  {% else %}
-    <span>{{ site.data.settings.pagination.previous_page }}</span>
-  {% endif %}
-
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">
-      {{ site.data.settings.pagination.next_page }}
-    </a>
-  {% else %}
-    <span>{{ site.data.settings.pagination.next_page }}</span>
-  {% endif %}
-</div>
+<section class="featured-work">
+  <div class="featured-work__inner">
+    <h2>Featured Work</h2>
+    <div class="post-grid">
+      {% for post in site.posts limit:3 %}
+        {% include featured-post.html %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

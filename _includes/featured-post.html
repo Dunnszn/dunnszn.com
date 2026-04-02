@@ -8,11 +8,14 @@
           alt="{{ post.title }}">
       </div>
     {% endif %}
+
     <div class="post-card__content">
       <h3 class="post-card__title">{{ post.title }}</h3>
+
       {% if post.excerpt %}
-        <p class="post-card__excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+        <p class="post-card__excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
       {% endif %}
+
       {% if post.tags %}
         <div class="post-card__tags">
           {% for tag in post.tags limit:3 %}

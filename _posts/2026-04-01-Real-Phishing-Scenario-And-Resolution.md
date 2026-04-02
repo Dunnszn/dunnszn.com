@@ -4,7 +4,7 @@ title: "Phishing Incident Response: Containment and Remediation in an Enterprise
 author: "Stephen Dunn"
 categories: security
 tags: [incident-response, phishing, endpoint-security, active-directory]
-image: /assets/images/posts/Phishing-incident.png
+image: /assets/images/posts/Phishing-incon.jpg
 excerpt: "A real-world phishing incident involving internal account compromise, device isolation, and enterprise-wide remediation."
 ---
 

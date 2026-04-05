@@ -1,0 +1,32 @@
+---
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+
+<p>Connect with me professionally and stay up to date.</p>
+
+<div class="contact-grid">
+  {% for item in site.data.settings.social %}
+    <a class="contact-card contact-card--{{ item.icon }}" href="{{ item.link }}" {% unless item.link contains 'mailto:' %}target="_blank" rel="noopener noreferrer"{% endunless %}>
+      <div class="contact-card__icon">
+        <i class="fa fa-{{ item.icon }}"></i>
+      </div>
+      <div class="contact-card__content">
+        <h2>{{ item.icon | capitalize }}</h2>
+        <p>
+          {% if item.icon == 'linkedin' %}
+            View LinkedIn profile
+          {% elsif item.icon == 'github' %}
+            View GitHub profile
+          {% elsif item.icon == 'envelope' %}
+            Send email
+          {% else %}
+            Open profile
+          {% endif %}
+        </p>
+      </div>
+    </a>
+  {% endfor %}
+</div>

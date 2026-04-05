@@ -233,6 +233,9 @@
 .section-card--about .section-card__image {
   object-position: center 20%;
 }
+.section-card--resume .section-card__image {
+  object-position: top;
+}
 .section-card__content {
   padding: 1.1rem 1.1rem 1.3rem;
 }
@@ -271,6 +274,50 @@
   height: auto;
   display: block;
 }
-.section-card--resume .section-card__image {
-  object-position: top;
+.contact-grid {
+  width: min(1200px, 92%);
+  margin: 2rem auto 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background: #f3f4f6;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+.contact-card__content h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.1rem;
+}
+
+.contact-card__content p {
+  margin: 0;
+  color: #4b5563;
+  line-height: 1.5;
 }

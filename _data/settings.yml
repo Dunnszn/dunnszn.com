@@ -9,7 +9,7 @@ menu:
 social:
   - {icon: 'linkedin', link: 'https://www.linkedin.com/in/stephenwdunn2/'}
   - {icon: 'github', link: 'https://github.com/Dunnszn'}
-  - {icon: 'envelope', link: 'vytalz@hotmail.com'}
+  - {icon: 'envelope', link: 'mailto:vytalz@hotmail.com'}
 
 pagination:
   next_page: 'Newer'

@@ -1,12 +1,12 @@
 # Site Build Settings
 
 # jekyll-paginate configuration
-paginate:            5
+paginate: 5
 
 # Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           /:title/
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
 
 title: "Stephen Dunn"
 description: "Cybersecurity and Systems Portfolio Page"

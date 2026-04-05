@@ -1,9 +1,29 @@
-<section class="section-cards">
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <div class="hero__content">
+    <p class="hero__eyebrow">Cybersecurity • Endpoint Operations • PC Building + More</p>
+    <h1 class="hero__title">Stephen Dunn II</h1>
+    <p class="hero__text">
+      Technical professional versed in endpoint security, incident response,
+      remediation, and enterprise systems reliability.
+    </p>
+    <div class="hero__actions">
+      <a class="button button--primary" href="{{ '/about/' | relative_url }}">About Me</a>
+      <a class="button button--secondary" href="{{ '/projects/' | relative_url }}">View Projects</a>
+    </div>
+  </div>
+</section>
+
+<section class="home-sections">
   <a class="section-card section-card--about" href="{{ '/about/' | relative_url }}">
     <img class="section-card__image" src="{{ '/assets/images/posts/SDAbout.jpeg' | relative_url }}" alt="About Stephen Dunn">
     <div class="section-card__content">
       <h2>About</h2>
-      <p>Details regarding my work experience and journey in the information security landscape</p>
+      <p>Background, experience, and technical focus.</p>
     </div>
   </a>
 
@@ -16,10 +36,10 @@
   </a>
 
   <a class="section-card section-card--resume" href="{{ '/resume/' | relative_url }}">
-    <img class="section-card__image" src="{{ '/assets/images/posts/resume-thumbnail.jpg' | relative_url }}" alt="Resume">
+    <img class="section-card__image" src="{{ '/assets/images/posts/resumethumb.png' | relative_url }}" alt="Resume">
     <div class="section-card__content">
       <h2>Resume</h2>
-      <p>Job history, certifications, and more.</p>
+      <p>Experience, certifications, and core skills.</p>
     </div>
   </a>
 
@@ -27,7 +47,7 @@
     <img class="section-card__image" src="{{ '/assets/images/posts/contactinfo.png' | relative_url }}" alt="Contact">
     <div class="section-card__content">
       <h2>Contact</h2>
-      <p>How to connect and stay up to date with me socially.</p>
+      <p>Ways to connect professionally.</p>
     </div>
   </a>
 </section>

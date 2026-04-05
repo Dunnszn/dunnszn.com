@@ -16,5 +16,6 @@ Below are my resume and supporting documents.
       |
       <a href="{{ '/assets/images/posts/StephenDunn_Resume.pdf' | relative_url }}">Download PDF</a>
     </p>
-
+  </section>
+</div>
    

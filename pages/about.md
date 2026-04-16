@@ -6,26 +6,16 @@ permalink: /about/
 
 # Stephen Dunn
 
-Technical professional experienced in supporting enterprise environments across security, systems, and operational technology.
+I work at the intersection of endpoint management, security, and systems troubleshooting in a large enterprise environment supporting over 3,000 managed devices.
 
-Recognized for taking ownership of complex technical issues, driving remediation efforts, and helping maintain secure and reliable infrastructure.
+In my current role, I help manage and secure endpoint environments through Microsoft Intune, BitLocker, software deployment, vulnerability remediation, endpoint security tools, and day-to-day operational support. My work ranges from resolving complex policy and deployment to something as simple as helping a user set up their Multi Factor Authentication. When something needs troubleshooting and I find the solution, I document repeatable fixes, and collaborate with multiple teams to facilitate and get work done efficiently.
 
-In a security-focused capacity, I regularly investigate alerts, isolate impacted devices, rebuild systems, and execute corrective actions that reduce organizational risk. I have been entrusted with administrative responsibilities within endpoint security platforms and have contributed to incident response activities in coordination with multiple teams.
+I’ve always been drawn to understanding how systems work beneath the surface — not just applying fixes, but figuring out why something failed and how to prevent it from happening again. Whether it’s troubleshooting an enrollment issue, patching a vulnerability via a crucial update, ensuring a critical workplace technology system has limited downtime, or helping migrate enterprise tools, I enjoy solving problems where technology, security, and user experience intersect.
 
-I have strong experience troubleshooting endpoints, supporting users, navigating enterprise environments, and resolving technical problems. I understand how components interact, where failures originate, and how durable solutions are implemented.
+Outside of work, I’ve always had a strong interest in technology as a whole. That includes building and optimizing PCs, understanding hardware, and continuing to learn how modern systems work together. I enjoy the process of breaking down complex problems, learning how things fit together, and building practical solutions that make systems more reliable.
 
-## Hands-on enterprise experience
+This site is where I share some of the projects, case studies, and technical experiences that have helped shape how I approach problem solving. 
 
-- Security Operations & Incident Support
-- Endpoint Administration
-- Technical Troubleshooting
-- System Remediation
-- Infrastructure Support
-- Root Cause Analysis
-- Process Optimization
-- Cross-Team Collaboration
-- CompTIA Security+
-
-If you would like to collaborate, please connect with me on [LinkedIn](https://www.linkedin.com/in/stephenwdunn2/).
+If you’d like to connect or collaborate, feel free to reach out on LinkedIn. [LinkedIn](https://www.linkedin.com/in/stephenwdunn2/).
 
 ![Portrait]({{ '/assets/images/profile/portrait.jpg' | relative_url }})

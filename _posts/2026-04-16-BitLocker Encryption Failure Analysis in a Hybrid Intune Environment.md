@@ -4,7 +4,7 @@ title: "BitLocker Encryption Failure Analysis in a Hybrid Intune Environment"
 author: "Stephen Dunn"
 categories: documentation
 tags: [Bitlocker, InTune, Azure Active Directory Domain Services]
-image: assets/images/posts/Bitlocker-Screen.png
+image: /assets/images/posts/Bitlocker-Screen.png
 excerpt: "My personal experience troubleshooting and resolving Bitlocker policy configuration enforcement and deployment errors."
 ---
 
